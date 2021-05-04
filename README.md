@@ -1,7 +1,7 @@
 # RPI-timelapse
 ### A USB webcam timelapse script
 
-_
+---
 
 - [About this repository](#about)
 - [requirements](#requirements)
