@@ -1,5 +1,5 @@
 # RPI-timelapse
-### A USB webcam timelapse script
+## A USB webcam timelapse script
 
 ---
 
