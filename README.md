@@ -28,7 +28,7 @@ sudo apt update && sudo apt install fswebcam ffmpeg -y
 
 this script has five item you can edit they are:-
 
-1. you can change the line DIR=/pi/pi/timelapse to whereever you want to put the images.
+1. you can change the line DIR=/home/pi/timelapse to whereever you want to put the images.
 2.  to change the number of images taken just edit ```
 while [ $x -le 1440 ]; do``` to relect the number of images you need to capyure my code example it's 1440
 3. the next item you  can change is the  photo resolution in the example below is set for 1920x1080
@@ -40,7 +40,7 @@ while [ $x -le 1440 ]; do``` to relect the number of images you need to capyure 
 ```
 #!/bin/bash
 # Timelapse controller for USB webcam
-DIR=/pi/pi/timelapse
+DIR=/home/pi/timelapse
 x=1
 while [ $x -le 1440 ]; do
 filename=$(date -u +"%d%m%Y_%H%M-%S").jpg
