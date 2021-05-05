@@ -48,5 +48,5 @@ fswebcam -d /dev/video0 -b --no-banner -r 1920x1080 $DIR/$filename
 x=$(( $x + 1 ))
 sleep 10;
 done;
-ffmpeg -framerate 30 -pattern_type glob -i "/home/pi/timelapse/*.JPG" -s:v 1920x1080 -c:v libx264 -crf 17 -pix_fmt yuv420p "`date +"%d-%m-%Y"`".mp4
+ffmpeg -framerate 30 -pattern_type glob -i "/home/pi/timelapse/*.jpg" -s:v 1920x1080 -c:v libx264 -crf 17 -pix_fmt yuv420p "`date +"%d-%m-%Y"`".mp4
 ```
