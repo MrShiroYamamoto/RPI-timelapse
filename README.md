@@ -7,6 +7,7 @@
 - [requirements](#requirements)
 - [how to use this script](#howto)
 - [oexample of the timelapse  scripty](#code)
+- [a video made using this script](#youtube)
 
 
 
@@ -50,3 +51,8 @@ sleep 10;
 done;
 ffmpeg -framerate 30 -pattern_type glob -i "/home/pi/timelapse/*.jpg" -s:v 1920x1080 -c:v libx264 -crf 17 -pix_fmt yuv420p "`date +"%d-%m-%Y"`".mp4
 ```
+---
+
+<a name="youtube"></a>
+
+[![](http://img.youtube.com/vi/WlzuweJt4x8/0.jpg)](http://www.youtube.com/watch?v=WlzuweJt4x8 "")
