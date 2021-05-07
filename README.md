@@ -20,12 +20,19 @@ I have created this repository as i have found it hard to find a way to capture 
 ### <a name="requirements">requirements</a>
  This script you will need to install fswebcam to install this on the Raspberry Pi OS just run the following commands
 ```
-sudo apt update && sudo apt install fswebcam ffmpeg -y
+sudo apt update && sudo apt install fswebcam ffmpeg git -y
 ```
 
 ---
 
 <a name="howto">how use the script</a>
+
+run the following commands
+```git clone https://github.com/MrShiroYamamoto/RPI-timelapse.git
+cp RPI-timelapse.git/timelapse.sh /home/pi
+chmod +X timelapse.sh
+```
+to run the script jun the following command ./timelapse.sh
 
 this script has seven item you can edit they are:-
 
